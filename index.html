@@ -1,89 +1,72 @@
-
 <!DOCTYPE HTML>
 <html>
     <head>
     <meta charset="utf-8">
-    <title>{{title}}</title>
-    <link type="text/css" rel="stylesheet" href="css/styles.css">
-    <link type="text/css" rel="stylesheet" href="css/styles_hotel.css">
-    <link type="text/css" rel="stylesheet" href="css/login.css">
-    <link type="text/css" rel="stylesheet" href="css/room.css">
-        <link type="text/css" rel="stylesheet" href="css/footer.css">
+    <title>Leukemia</title>
+    <link type="text/css" rel="stylesheet" href="css/main.css">
    </head>
-<header class="booking_header">
-    <div class="logo">
-        <a class='link_main' href="index.html" >
-            <img src="images/trip-logo.png" alt="иконка" width="75" height="75" align="left">
-        </a>
-    </div>
-    <div class="menu">
-        <ul>
-            <li><a href="hotel.html">Каталог</a></li>
-        </ul>
-    </div>
-    <div class="log_but">
-
-
-            <a href="login.html" >
-                <button class="login">
-                    <img src="images/chel.png" alt="" style="vertical-align:middle" width="25" height="25">
-                    Войти
-                </button>
-            </a>
-
-    </div>
-  </header>
+<header>
+<div class="header">
+ <div class="menu"><div class="dots" onclick="this.classList.toggle('active');">
+  <div class="shadow cut"></div>
+  <div class="container cut">
+    <div class="drop cut2"></div>
+  </div>
+  <div class="list">
+    <ul>
+      <li>
+        <a href="doctors.html">Врачи</a> 
+      </li>
+      <li>
+        <a href="technology.html">Новые Технологии</a>
+      </li>
+      <li>
+        <a href="about.html">О нас</a>
+      </li>
+    </ul>
+</div>
+<div class="cursor"
+     onclick="document.querySelector('.dots').classList.toggle('active');"></div>
+  </div></div>
+  <div class="info">
+  <h4><a href="#category">Диагностика и лечение</a></h4>
+    <h1>Лейкимия</h1>
+  </div>
+</div>
+</header>
 <body>
-    <div class="image">
-        <img src="images/main.jpeg" alt="фон" width="100%" height="100%" class="main_pic">
-        <div id="rectangle">
-            <div class="wraped">
-                
-                    <div class="input-destination">
-                        <label class="input_labels">Назначение</label>
-                        <input name="destination" class="destination" placeholder="Город">
-                    </div>
-                    <div class="input-check-in">
-                        <label class="input_labels">Заезд</label>
-                        <input type="date" id="myDate" name="check-in" class="check-in">
-                    </div>
-                    <div class="input-check-out">
-                        <label class="input_labels">Выезд</label>
-                        <input type="date" id="myDate" name="check-out" class="check-out">
-                    </div>
-                    <a >
-                        <div class="button_search">
-                            <button class="searchbutton"> Поиск </button>
-                        </div>
-                    </a>
-                
-                
-                
-            </div>
-        </div>
-    </div>
+  <p>Ежегодно это онкозаболевание поражает около 5-6 тысяч жителей России. Лейкемия – это злокачественное системное поражение красного костного мозга, во время которого здоровые лейкоциты в крови замещаются измененными клетками. Аномальные лейкоциты не выполняют своей функции, но в то же время продолжают активное деление, в результате чего их количество возрастает. Перемещаясь с кровотоком, они проникают во все кроветворные органы тела и становятся причиной патологических изменений в их тканях. Заболевание протекает в острой или хронической форме, поражает не только взрослых, но и детей. Мужчины заболевают лейкозом в полтора раза чаще женщин.</p>
+  <p>В настоящее время причиной рака крови считают нарушения молекулярной структуры в хромосомах, которые могут возникать под действием неблагоприятных внешних факторов:</p>
+  <ul>
+    <li>Ослабленный иммунитет и тяжелые вирусные заболевания (у детей лейкемия часто развивается после перенесенного гриппа);</li>
+    <li>Радиация, в том числе высокие единичные дозы облучения, применение лучевой терапии, избыточно частая рентгенография;</li>
+    <li>постоянный контакт с бензолом и другими вредными химическими реагентами на производстве;</li>
+    <li>Химиотерапия при помощи препаратов цитостатической группы;</li>
+    <li>Наследственные заболевания, связанные с патологиями хромосом, в частности, синдром Дауна;</li>
+    <li>Болезни крови;</li>
+    <li>Наследственный фактор, при котором от родителей к детям передается нестабильный геном;</li>
+    <li>Неумеренное курение или жевание табака.</li>
+  </ul>
+  <p align="center"><a href="#" class="btn twtr" target="_b">Оставтье нам ваши контакты, и мы свяжемся с вами!</a>
+  </p>
 </body>
-    <footer class="footer">
-     <div class="container">
-      <div class="row">
-        <div class="footer-col">
-          <h4>Наши контакты</h4>
-          <ul>
-            <li><a href="#">+7 (433) 56-72</a></li>
-            <li><a href="#">travel.agency@mail.ru</a></li>
-            <li><a href="#">Москва, улица Пчелка 28с1</a></li>
-          </ul>
-        </div> <br>
+<footer>
+<div class="footer">
 
-        <div class="footer-col">
-          <h4>Социальные сети</h4>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </div>
-     </div>
-  </footer>
+
+<div class="row">
+<ul>
+<li><a href="index.html">Home Page</a></li>
+<li><a href="https://cyberleninka.ru/article/n/ostrye-leykozy/viewer">Read More</a></li>
+<li><a href="politica.html">Privacy Policy</a></li>
+<li><a href="http://anfy-leik.site/">Neurolink</a></li>
+<li><a href="terms.html">Terms & Conditions</a></li>
+</ul>
+</div>
+
+<div class="row">
+ Copyright © 2023 - All rights reserved || Designed By: Zudina Anfisa 
+</div>
+</div>
+</footer>
 </html>
